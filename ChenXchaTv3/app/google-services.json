@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "47679465129",
+    "firebase_url": "https://chenxchatv3.firebaseio.com",
+    "project_id": "chenxchatv3",
+    "storage_bucket": "chenxchatv3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47679465129:android:355bc03a83863098",
+        "android_client_info": {
+          "package_name": "com.example.smqpr.chenxchatv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47679465129-s9hdke51ghlhlk1cft520rbppes6smbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smqpr.chenxchatv3",
+            "certificate_hash": "c2c26f3ae2f2eab88deabf81814eea398fdfdbdc"
+          }
+        },
+        {
+          "client_id": "47679465129-l4jigbbgvgu8m3qi366iljdq8tecj3ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxGMt-7y3Lb9ryU9ddVkUWI_eNmT5PrtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47679465129-l4jigbbgvgu8m3qi366iljdq8tecj3ct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
