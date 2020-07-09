@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js\script.js"></script>
+  <title>Фреймы</title>
+ </head>
+ <body id="a">
+   <div class="border">
+     <div class="otstup">
+     <p><b>Число размещений без повторений</b></p>
+     <p>В комбинаторике размеще́нием (из n по m) называется упорядоченный
+       набор из k различных элементов из некоторого множества различных n элементов.</p>
+
+       <img src="img/a.jpg"/>
+
+       <p>Пример. Сколькими способами можно распределить между 7 спортсменами три призовых места.</p>
+       <p>Решение.	Пронумеруем спортсменов цифрами от 1 до 7. Рассмотрим все возможные комбинации
+       этих цифр по три x_{1}, x_{2}, x_{3}. Тогда x_{i} будет соответствовать i-тому призовому месту.
+       В каждой такой комбинации будет важен порядок входящих в неё цифр и не все цифры задействованы.
+       Следовательно, имеем размещение 7 элементов по три</p>
+
+       <img src="img/a_aa.svg"/>
+
+       <span class="formula">
+         <p><i>A </i><span><sup><input type="text" id="vvod_a_m" placeholder="m" class="vvod"></sup><sub><input type="text" id="vvod_a_n" placeholder="n" class="vvod"></sub></span> = <output id="result_a">Результат</output></p>
+       </span>
+       <input type="button" value="Вычислить" onclick="print_a_res()">
+
+       <br>
+       <br>
+       <br>
+
+     <p><b>Число размещений с повторениями</b></p>
+     <p>Размещение с повторениями или выборка с возвращением — это размещение
+     «предметов» в предположении, что каждый «предмет» может участвовать в размещении
+     несколько раз.</p>
+     <br>
+       <img src="img/a-.jpg"/>
+       <p>Пример. В лифт восьмиэтажного дома вошли 5 пассажиров. Сколькими способами могут выйти пассажиры на каждом этаже, начиная со второго?</p>
+       <p>Решение. Задача сводится к распределению 5 пассажиров по 7 этажам (т. е. набор упорядоченный), причем возможны повторения (т. е. несколько пассажиров
+         могут выйти на одном этаже). Таким образом, задача сводится к нахождению числа размещений с повторениями:</p>
+      <img src="img/a_a.png"/>
+       <span class="formula">
+         <p><i>Ā </i><span><sup><input type="text" id="vvod_ar_m" placeholder="m" class="vvod"></sup><sub><input type="text" id="vvod_ar_n" placeholder="n" class="vvod"></sub></span> = <output id="result_ar">Результат</output></p>
+       </span>
+       <input type="button" value="Вычислить" onclick="print_ar_res()">
+     </div>
+     <p align="right"><a href="content.html">Назад</a>
+    </div>
+
+ </body>
+</html>

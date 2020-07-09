@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">2 Hi-Tech</string>
+    <string name="title_sources">Источники</string>
+    <string name="title_news">Новости</string>
+    <string name="title_settings">Настройки</string>
+    <string name="action_logout">Выйти</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
