@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sport search</string>
+    <string name="login">Войти</string>
+    <string name="password">Пароль</string>
+    <string name="email">Почта</string>
+    <string name="sign_up">Sign up</string>
+</resources>
