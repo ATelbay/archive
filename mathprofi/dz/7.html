@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Задача 4</title>
+    <script type="text/javascript">
+      function rFact(num) {
+          if (num === 0)  return 1;
+          else return num * rFact( num - 1 );
+      }
+      document.writeln("Ответ ", parseInt(rFact(10)/(rFact(8)*rFact(2))),
+       " способами можно выбрать 2 юношей<br\/>");
+       document.write("Ответ ", parseInt(rFact(13)/(rFact(11)*rFact(2))),
+        " способами можно выбрать 2 девушек");
+    </script>
+</html>

@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>List of jobs</title>
+      <style>
+         body {
+          background: url(https://maxcdn.icons8.com/app/uploads/2016/03/material-1.jpg );
+         }
+      </style>
+  </head>
+  <body>
+    <h1>List of jobs</h1>
+    <% @jobs.each do |job| %>
+      <h3><%= job.title %></h3>
+      <%= job.description %>
+      <p align="right"><%= link_to "", edit_job_path(job), class: "fa fa-pencil-square-o" %></p>
+      <p align="right"><%= link_to '', job, method: :delete, class: "fa fa-trash-o"%></p>
+    <% end %>
+  </body>
+</html>

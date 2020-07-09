@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Задача 4</title>
+    <script type="text/javascript">
+      function rFact(num) {
+          if (num === 0)  return 1;
+          else return num * rFact( num - 1 );
+      }
+      document.write("Ответ ", parseInt(rFact(36)/(rFact(33)*rFact(3)))+1);
+    </script>
+</html>
